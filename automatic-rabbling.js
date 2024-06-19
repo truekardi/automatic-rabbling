@@ -142,7 +142,7 @@
         }
         await delay(1, 3);
 
-        await loadExternalScript('https://cdn.jsdelivr.net/gh/truekardi/collective-rabble@main/collective-rabbling.js');
+        await loadExternalScript('https://cdn.jsdelivr.net/gh/truekardi/collective-rabbling@main/collective-rabbling.js');
         await delay(1, 4);
 
         setValueToInput('input.runTime_off', adjustableScavengingTimeInHours);
